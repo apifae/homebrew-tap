@@ -8,23 +8,23 @@ class Apifae < Formula
 
   on_macos do
     on_arm do
-      url "https://apifae.com/dl/0.1.0/apifae-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "fde1a23e9178a096fcf0686766e0469a68ebb3097246d106d740d5f0ab677114"
+      url "https://apifae.com/dl/0.2.0/apifae-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5d9865586341fdb7d6ae2a91587ef7be0ab438c46feade19ee37c66a8c8c4200"
     end
     on_intel do
-      url "https://apifae.com/dl/0.1.0/apifae-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "24a02440b23d62cef22b8d498ff7250347069c30c749940da3a1c5a3b1cddaa0"
+      url "https://apifae.com/dl/0.2.0/apifae-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "4dc27b099776729671cc56b25452c341afb90f3056c04f8469208cbc6825dad6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://apifae.com/dl/0.1.0/apifae-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "02494ce8d914899a0555d5c895340e2f3a3bf61f02b624c4917bc538eaa13902"
+      url "https://apifae.com/dl/0.2.0/apifae-0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4f8368ae8b33c09804cbfdc37f60dd7a7f40e951079fc5e03eda35fd112a565f"
     end
     on_intel do
-      url "https://apifae.com/dl/0.1.0/apifae-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8e2108b25de18ef55fce5fe147ecd9b59002890b81d09c8e0a47cd2af1db1f75"
+      url "https://apifae.com/dl/0.2.0/apifae-0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "9770b151b4fe410ab792ef042942048e65e7ffb38da5fa325c78adcf1574b802"
     end
   end
 
